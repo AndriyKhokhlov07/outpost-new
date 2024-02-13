@@ -1,0 +1,34 @@
+.manhattan_rooms_rent .gall{
+    flex-direction: row;
+}
+.manhattan_rooms_rent .gall>* {
+    display: block;
+    width: 25%;
+    padding-bottom: 20%;
+    position: relative;
+}
+.manhattan_rooms_rent .img {
+    display: block;
+    width: 100%;
+    padding-bottom: 70%;
+    position: relative;
+}
+.manhattan_rooms_rent .fx>* {
+    box-sizing: border-box;
+}
+/*.manhattan_rooms_rent a {*/
+/*    color: #000;*/
+/*    text-decoration: none;*/
+/*    transition: .3s;*/
+/*}*/
+.manhattan_rooms_rent .apartments_block > .item {
+    width: calc(100% / 4 - 15px);
+}
+.manhattan_rooms_rent .apartments_block {
+    margin: 30px auto;
+}
+.manhattan_rooms_rent .advantages .item .title_2 {
+    font-size: 23px;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+}
